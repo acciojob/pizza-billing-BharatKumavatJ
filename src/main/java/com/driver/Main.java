@@ -1,4 +1,4 @@
-package com.driver;
+// package com.driver;
 
 public class Main {
   public static void main(String[] args) {
@@ -14,5 +14,13 @@ public class Main {
     p.addExtraToppings();
     p.addTakeaway();
     System.out.println(p.getBill());
+
+    p = new Pizza(false);
+    p.addExtraCheese();
+    p.addExtraToppings();
+    // p.addTakeaway();
+    System.out.println(p.getBill());
+
+
   }
 }

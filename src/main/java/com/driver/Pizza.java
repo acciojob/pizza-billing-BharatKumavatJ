@@ -1,4 +1,4 @@
- package com.driver;
+//  package com.driver;
 
 public class Pizza {
 
@@ -75,7 +75,7 @@ public class Pizza {
             this.bill += "\nPaperbag Added: " + this.paperBag ;
         }         
 
-        this.bill += "\nTotal Price: "  + this.totalPrice + "\n";
+        this.bill += "\nTotal Price: "  + this.totalPrice ;
         
         return this.bill;
     }
