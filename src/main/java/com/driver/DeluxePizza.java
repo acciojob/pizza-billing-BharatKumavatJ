@@ -6,7 +6,7 @@ public class DeluxePizza extends Pizza {
         super(isVeg);
         // your code goes here
         // System.out.println("i got exe");
-        addExtraCheese();
-        addExtraToppings();
+        this.addExtraCheese();
+        this.addExtraToppings();
     }
 }
